@@ -37,6 +37,14 @@
 这套 skill 用的是 **`SKILL.md` 开放标准**（[agentskills.io](https://agentskills.io)），
 Codex CLI、Claude Code、Cursor、Gemini CLI 等 38+ 平台通用。只需放到对应工具的 skills 目录：
 
+### WorkBuddy 可直接导入版
+
+下载 [shortvideo-playbook-workbuddy.zip](https://gitee.com/yngyng666888/shortvideo-playbook/raw/main/releases/shortvideo-playbook-workbuddy.zip)，在 WorkBuddy 电脑端进入「专家 · Skills · Connectors → Skills → 添加 Skill」，直接上传该 ZIP。
+
+> ZIP 根目录已直接放置 `SKILL.md`，并内含 15 张能力卡。不要解压后重新压缩。手机端如果没有「添加 Skill / 上传 ZIP」入口，需先在电脑端安装；单纯把 GitHub/Gitee 仓库链接发给对话窗口，不会自动安装。
+
+### 完整 8 入口版
+
 | 工具 | 安装命令（在 `dist/shortvideo-playbook/` 目录下执行） |
 |---|---|
 | **WorkBuddy** | `cp -R shortvideo-* ~/.workbuddy/skills/` |
