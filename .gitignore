@@ -1,13 +1,22 @@
 # ============================================================
-# 源材料 —— 购买的课程逐字稿与原始文档，含版权，一律不入库
+# 原始素材 —— 不入库
 # ============================================================
-books/canyin-shortvideo-course/source/
 短视频蒸馏资料蒸馏/
+books/shortvideo-playbook/source/
+
+# ============================================================
+# 中间产物（本地保留，不上传）
+# ============================================================
+books/shortvideo-playbook/candidates/
+books/shortvideo-playbook/rejected/
+books/shortvideo-playbook/.cangjie/runs/
+books/shortvideo-playbook/.cangjie/snapshots/
+books/shortvideo-playbook/.workbuddy/
 
 # ============================================================
 # 临时文件
 # ============================================================
-.workbuddy/tmp_extract.py
+.workbuddy/
 __pycache__/
 *.pyc
 *.pyo
@@ -26,6 +35,3 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
-
-# 内部工作日志（非交付物）
-.workbuddy/

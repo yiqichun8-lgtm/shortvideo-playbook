@@ -1,0 +1,69 @@
+{
+  "generated_by": "cangjie-tools v2.5.0",
+  "bundle_id": "bdl.shortvideo-playbook.v1",
+  "router_entrypoint": "shortvideo-playbook",
+  "entrypoint_count": 8,
+  "capability_count": 15,
+  "destinations": {
+    "cap.shortvideo.positioning.v1": {
+      "promoted_to": "shortvideo-positioning",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-positioning.md"
+    },
+    "cap.shortvideo.topic-generator.v1": {
+      "promoted_to": "shortvideo-topic-generator",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-topic-generator.md"
+    },
+    "cap.shortvideo.opinion-script.v1": {
+      "promoted_to": "shortvideo-opinion-script",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-opinion-script.md"
+    },
+    "cap.shortvideo.process-script.v1": {
+      "promoted_to": "shortvideo-process-script",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-process-script.md"
+    },
+    "cap.shortvideo.knowledge-script.v1": {
+      "promoted_to": "shortvideo-knowledge-script",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-knowledge-script.md"
+    },
+    "cap.shortvideo.story-script.v1": {
+      "promoted_to": "shortvideo-story-script",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-story-script.md"
+    },
+    "cap.shortvideo.script-selfcheck.v1": {
+      "promoted_to": "shortvideo-script-selfcheck",
+      "router_view": "shortvideo-playbook/references/capabilities/shortvideo-script-selfcheck.md"
+    },
+    "cap.shortvideo.ai-topic-prompt.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-ai-topic-prompt.md"
+    },
+    "cap.shortvideo.shooting-basics.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-shooting-basics.md"
+    },
+    "cap.shortvideo.editing-workflow.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-editing-workflow.md"
+    },
+    "cap.shortvideo.natural-flow.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-natural-flow.md"
+    },
+    "cap.shortvideo.deconstruction.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-deconstruction.md"
+    },
+    "cap.shortvideo.advanced-scripts.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-advanced-scripts.md"
+    },
+    "cap.shortvideo.ip-intake.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-ip-intake.md"
+    },
+    "cap.shortvideo.matrix-team.v1": {
+      "served_by": "shortvideo-playbook",
+      "card": "shortvideo-playbook/references/capabilities/shortvideo-matrix-team.md"
+    }
+  }
+}
