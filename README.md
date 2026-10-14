@@ -37,6 +37,20 @@
 这套 skill 用的是 **`SKILL.md` 开放标准**（[agentskills.io](https://agentskills.io)），
 Codex CLI、Claude Code、Cursor、Gemini CLI 等 38+ 平台通用。只需放到对应工具的 skills 目录：
 
+### 像 dbskill 一样一条命令安装
+
+支持 Skills CLI 的 Agent 可以从仓库根目录的 `skills/` 自动发现全部 8 个入口：
+
+```bash
+npx -y skills add yiqichun8-lgtm/shortvideo-playbook -g --all
+```
+
+安装后可先调用总入口：
+
+```text
+$shortvideo-playbook 我有一家实体店，帮我判断现在应该先做定位、选题还是脚本。
+```
+
 ### WorkBuddy 可直接导入版
 
 下载 [shortvideo-playbook-workbuddy.zip](https://gitee.com/yngyng666888/shortvideo-playbook/raw/main/releases/shortvideo-playbook-workbuddy.zip)，在 WorkBuddy 电脑端进入「专家 · Skills · Connectors → Skills → 添加 Skill」，直接上传该 ZIP。
@@ -56,7 +70,7 @@ Codex CLI、Claude Code、Cursor、Gemini CLI 等 38+ 平台通用。只需放�
 所有人克隆后自动生效。
 
 ```bash
-git clone https://github.com/<YOUR_USERNAME>/shortvideo-playbook.git
+git clone https://github.com/yiqichun8-lgtm/shortvideo-playbook.git
 cd shortvideo-playbook/dist/shortvideo-playbook
 cp -R shortvideo-* ~/.workbuddy/skills/
 ```
@@ -96,6 +110,7 @@ $shortvideo-script-selfcheck 帮我看看这条脚本能不能发：[粘贴脚�
 
 ```
 .
+├── skills/                         ← Skills CLI 标准入口，可自动发现 8 个 Skill
 ├── dist/shortvideo-playbook/        ← 编译产物，可直接安装
 │   ├── shortvideo-playbook/         ← 路由入口（含 15 张卡索引）
 │   ├── shortvideo-positioning/
