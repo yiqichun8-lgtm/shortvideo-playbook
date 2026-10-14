@@ -33,12 +33,26 @@
 
 ## 安装
 
+这套 skill 用的是 **`SKILL.md` 开放标准**（[agentskills.io](https://agentskills.io)），
+Codex CLI、Claude Code、Cursor、Gemini CLI 等 38+ 平台通用。只需放到对应工具的 skills 目录：
+
+| 工具 | 安装命令（在 `dist/canyin-shortvideo-course/` 目录下执行） |
+|---|---|
+| **WorkBuddy** | `cp -R canyin-* ~/.workbuddy/skills/` |
+| **Codex CLI** | `cp -R canyin-* ~/.codex/skills/` |
+| **Claude Code** | `cp -R canyin-* ~/.claude/skills/` |
+| **Cursor / 其他** | 放到该项目/工具的 skills 目录即可 |
+
+项目级安装（团队共享）：把 `canyin-*` 放进仓库根的 `.codex/skills/` 并提交，
+所有人克隆后自动生效。
+
 ```bash
 git clone https://github.com/<YOUR_USERNAME>/canyin-shortvideo-skills.git
-cp -R canyin-shortvideo-skills/dist/canyin-shortvideo-course/canyin-* ~/.workbuddy/skills/
+cd canyin-shortvideo-skills/dist/canyin-shortvideo-course
+cp -R canyin-* ~/.workbuddy/skills/
 ```
 
-重启 WorkBuddy 生效。
+重启对应工具生效。新会话中输入 `/skills` 可确认是否已加载。
 
 ---
 

@@ -26,3 +26,6 @@ __pycache__/
 .vscode/
 .idea/
 *.swp
+
+# 内部工作日志（非交付物）
+.workbuddy/
